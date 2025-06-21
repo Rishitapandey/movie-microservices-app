@@ -1,0 +1,17 @@
+# Ignore everything by default
+*
+
+# But DON'T ignore the .gitignore file itself
+!.gitignore
+
+# Allow the pythonMicroservice folder and its contents
+!pythonMicroservice/
+!pythonMicroservice/**
+
+# Optional: Ignore system/IDE files even if inside pythonMicroservice
+.DS_Store
+.vscode/
+.env
+.venv
+MYSQL Local.session.sql
+
