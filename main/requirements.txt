@@ -1,0 +1,9 @@
+Flask==2.2.5
+Flask-SQLAlchemy==3.1.1  # Updated for Flask 2.x
+SQLAlchemy==2.0.23       # Modern SQLAlchemy (works with Flask-SQLAlchemy 3.x)
+Flask-Migrate==4.0.5     # Updated for Flask 2.x
+Flask-Cors==4.0.0        # Updated
+requests==2.31.0         # Updated (2.25.0 has security issues)
+mysqlclient==2.2.1       # Updated
+pika==1.3.2              # Updated
+Jinja2==3.1.3            # Updated (Flask 2.x requires Jinja2>=3.0)
